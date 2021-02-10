@@ -1,0 +1,82 @@
+#container {
+  font-family: cursive;
+  color: black;
+  text-align: center;
+}
+
+#container::before {
+      content: "";
+      background-image: url("https://www.albertapotatoes.ca/uploads/thumbnails/PotatoVarieties_1.jpg.d95cc16d.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+
+h3 {
+  position: relative;
+  font-size: 23px;
+}
+
+.questions {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  margin-top: 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.question {
+  font-size: 18px;
+}
+
+.answers {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin-top: 15px;
+  background-size: contain;
+}
+
+.answer {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+   background-color: khaki;
+   text-align: center;
+}
+
+.answer:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+img {
+  position: relative;
+  margin-top: 20px;
+}
+
+.result-words {
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.result-title {
+  font-family: cursive;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+} 
